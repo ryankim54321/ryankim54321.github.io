@@ -1,14 +1,17 @@
-html,
 body {
-  height: 100%;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 24px;
+  background-color: beige;
 }
-#outer{
-  min-height:100%;
-  }
 
+
+
+
+/*for the list of personal links */
 
 ul#personal_info li{
   display:inline;
+  /*margin-right: 10px;*/
 }
 
 .tab {
@@ -16,6 +19,7 @@ ul#personal_info li{
   margin-left: 40px;
 }
 
+/* user interaction with lists above */
 a:link, a:visited {
   text-decoration: none;
   color: black;
@@ -25,17 +29,50 @@ a:hover {
   color: blue;
 }
 
-.personal-header-avatar{
-    width: 300px;
-    height: 300px;
-    -webkit-border-radius: 300px;
-    -webkit-background-clip: padding-box;
-    -moz-border-radius: 300px;
-    -moz-background-clip: padding;
-    border-radius: 300px;
-    background-clip: padding-box;
-    margin: 7px 0 0 5px;
-    float: left;
-    background-size: cover;
-    background-position: center center;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  
 }
+
+.personal-header-avatar{
+  width: 300px;
+  height: 300px;
+  -webkit-border-radius: 300px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 300px;
+  -moz-background-clip: padding;
+  border-radius: 300px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  
+
+}
+
+
+header {
+  text-align: center;
+  
+  background-color: whitesmoke;
+  height:auto;
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-color:antiquewhite;
+}
+
+h1{
+  font-size: 68px;
+}
+
+
+
+
+
