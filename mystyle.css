@@ -1,7 +1,7 @@
 body {
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 24px;
-  background-color: beige;
+  
 }
 
 
@@ -60,12 +60,12 @@ a:hover {
 header {
   text-align: center;
   
-  background-color: whitesmoke;
+  
   height:auto;
   
   margin-left: auto;
   margin-right: auto;
-  background-color:antiquewhite;
+  background-color:#eee;
 }
 
 h1{
@@ -79,6 +79,8 @@ h1{
   align-items: center;
   text-align: center;
   min-height: 50vh;
+  
+  
  
 }
 
@@ -89,7 +91,7 @@ h1{
   align-items: center;
   text-align: center;
   min-height: 50vh;
-
+  background-color:#eee;
 }
 
 
